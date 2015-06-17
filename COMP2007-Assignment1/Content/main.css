@@ -1,0 +1,86 @@
+﻿body {
+  /* Margin bottom by footer height so that sticky footer doesnt cover*/
+   margin-bottom: 60px;
+   background-color:#ccc;
+}
+form{
+    background-color:lavender;
+    border-radius:7px;
+    padding:10px;
+}
+.game-container h2{
+    text-align:center;
+ 
+    font-weight:bold;
+    text-decoration:underline;
+    color:#2c699e;
+}
+/*gives some spacing between radio btn and its label*/
+.game-container label{
+    padding-left:4px;
+}
+/*text box fields in form*/
+.game-container input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:20px;
+    border-radius:3px;
+}
+/*labels in form*/
+.game-container span {
+    display:inline-block;
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 140px;
+
+    font-weight:bold;
+}
+
+/*summary button*/
+#buttonDiv{
+    text-align:right;
+}
+#buttonDiv input{
+    margin-top:20px;
+}
+/* mobile media query*/
+@media only screen and (max-width : 395px) {
+    .game-container span {
+        text-align: left;
+        padding-left: 20px;
+    }
+    /*first label - Results*/
+    .game-container > span {
+        width: 70px;
+    }
+
+    #buttonDiv input {
+        margin-right: 41px;
+    }
+}
+
+/*Large desktop media query*/
+@media only screen and (min-width : 1200px) {
+    .game-container span {
+        text-align: left;
+        padding-left: 20px;
+    }
+    /*first label - Results*/
+    .game-container > span {
+        width: 70px;
+    }
+}
+
+/* JQUERY Validation elements*/
+label.error{
+    color:red;
+}
+input.error{
+    border-color:red;
+    border-style:solid;
+}
+
+
