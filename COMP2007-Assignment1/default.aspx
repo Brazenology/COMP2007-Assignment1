@@ -10,11 +10,11 @@
             <div class="row">
                 <!-- Game 1 Container -->
                 <div class="col-md-6 col-lg-3 game-container">
-                    <h2>Game 1</h2>
+                    <h1>Game One</h1>
                     <asp:Label  ID="resultLabel1" runat="server" Text="Result:"></asp:Label>
                     <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-                        <asp:ListItem Value="Win">Win</asp:ListItem>
-                        <asp:ListItem Value="Lose">Lose</asp:ListItem>
+                        <asp:ListItem Value="Win">Won</asp:ListItem>
+                        <asp:ListItem Value="Lose">Lost</asp:ListItem>
                     </asp:RadioButtonList>
                     <div>
                         <asp:Label  ID="pointsScoredLabel1"  runat="server" Text="Points Scored:"></asp:Label>
@@ -28,14 +28,14 @@
                         <asp:Label  ID="spectatorsLabel1" runat="server" Text="Spectators:"></asp:Label>
                         <asp:TextBox ID="spectatorsTextBox1" class="numericInput" runat="server"></asp:TextBox>
                     </div> 
-                </div> <!-- End of Game 1 COntainer -->
+                </div> <!-- End of Game 1 Container -->
                 <!-- Game 2 Container -->
                   <div class="col-md-6 col-lg-3 game-container">
-                    <h2>Game 2</h2>
+                    <h1>Game Two</h1>
                     <asp:Label ID="resultLabel2" runat="server" Text="Result:"></asp:Label>
                     <asp:RadioButtonList ID="RadioButtonList2" runat="server">
-                        <asp:ListItem Value="Win">Win</asp:ListItem>
-                        <asp:ListItem Value="Lose">Lose</asp:ListItem>
+                        <asp:ListItem Value="Win">Won</asp:ListItem>
+                        <asp:ListItem Value="Lose">Lost</asp:ListItem>
                     </asp:RadioButtonList>
                     <div>
                         <asp:Label ID="pointsScoredLabel2" runat="server" Text="Points Scored:"></asp:Label>
@@ -49,14 +49,14 @@
                         <asp:Label ID="spectatorsLabel2" runat="server" Text="Spectators:"></asp:Label>
                         <asp:TextBox ID="spectatorsTextBox2" class="numericInput" runat="server"></asp:TextBox>
                     </div>
-                </div> <!-- End of Game 2 COntainer -->
+                </div> <!-- End of Game 2 Container -->
                 <!-- Game 3 Container -->
                   <div class="col-md-6 col-lg-3 game-container">
-                    <h2>Game 3</h2>
+                    <h1>Game Three</h1>
                     <asp:Label ID="resultLabel3" runat="server" Text="Result:"></asp:Label>
                     <asp:RadioButtonList ID="RadioButtonList3" runat="server">
-                        <asp:ListItem Value="Win">Win</asp:ListItem>
-                        <asp:ListItem Value="Lose">Lose</asp:ListItem>
+                        <asp:ListItem Value="Win">Won</asp:ListItem>
+                        <asp:ListItem Value="Lose">Lost</asp:ListItem>
                     </asp:RadioButtonList>
                     <div>
                         <asp:Label ID="pointsScoredLabel3" runat="server" Text="Points Scored:"></asp:Label>
@@ -73,11 +73,11 @@
                 </div> <!-- End of Game 3 Container -->
                 <!-- Game 4 Container -->
                   <div class="col-md-6 col-lg-3 game-container">
-                    <h2>Game 4</h2>
+                    <h1>Game Four</h1>
                     <asp:Label ID="resultLabel4" runat="server" Text="Result:"></asp:Label>
                     <asp:RadioButtonList ID="RadioButtonList4" runat="server">
-                        <asp:ListItem Value="Win">Win</asp:ListItem>
-                        <asp:ListItem Value="Lose">Lose</asp:ListItem>
+                        <asp:ListItem Value="Win">Won</asp:ListItem>
+                        <asp:ListItem Value="Lose">Lost</asp:ListItem>
                     </asp:RadioButtonList>
                     <div>
                         <asp:Label ID="pointsScoredLabel4" runat="server" Text="Points Scored:"></asp:Label>
