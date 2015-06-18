@@ -319,30 +319,75 @@ namespace BrendanKallioA1 {
         protected global::System.Web.UI.WebControls.Button summaryButton;
         
         /// <summary>
-        /// Label1 control.
+        /// gamesWonLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label gamesWonLabel;
         
         /// <summary>
-        /// Label2 control.
+        /// gamesLostLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label gamesLostLabel;
         
         /// <summary>
-        /// Label3 control.
+        /// winPercentageLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label winPercentageLabel;
+        
+        /// <summary>
+        /// totalPointsScoredLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label totalPointsScoredLabel;
+        
+        /// <summary>
+        /// totalPointsAllowedLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label totalPointsAllowedLabel;
+        
+        /// <summary>
+        /// pointDifferentialLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label pointDifferentialLabel;
+        
+        /// <summary>
+        /// totalSpectatorsLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label totalSpectatorsLabel;
+        
+        /// <summary>
+        /// averageSpectatorsLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label averageSpectatorsLabel;
     }
 }
