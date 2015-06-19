@@ -67,13 +67,13 @@ namespace BrendanKallioA1 {
         protected global::System.Web.UI.WebControls.Label pointsAllowedLabel1;
         
         /// <summary>
-        /// test control.
+        /// pointsAllowedTextBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox test;
+        protected global::System.Web.UI.WebControls.TextBox pointsAllowedTextBox1;
         
         /// <summary>
         /// spectatorsLabel1 control.

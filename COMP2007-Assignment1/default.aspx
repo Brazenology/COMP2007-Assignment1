@@ -22,7 +22,7 @@
                     </div>
                     <div>
                         <asp:Label ID="pointsAllowedLabel1" runat="server" Text="Points Allowed:"></asp:Label>
-                        <asp:TextBox ID="test" CssClass="numericInput allowed1" notEqualTo=".scored1" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="pointsAllowedTextBox1" CssClass="numericInput allowed1" notEqualTo=".scored1" runat="server"></asp:TextBox>
                     </div>
                     <div>
                         <asp:Label ID="spectatorsLabel1" runat="server" Text="Spectators:"></asp:Label>
